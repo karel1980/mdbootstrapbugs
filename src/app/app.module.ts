@@ -1,9 +1,9 @@
-import {BrowserModule} from '@angular/platform-browser';
-import {NgModule} from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
 
-import {AppRoutingModule} from './app-routing.module';
-import {AppComponent} from './app.component';
-import {AccordionModule, MDBBootstrapModule} from "ng-uikit-pro-standard";
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import {AccordionModule, ButtonsModule, MDBBootstrapModule, WavesModule} from "ng-uikit-pro-standard";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
