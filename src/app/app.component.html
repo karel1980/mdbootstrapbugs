@@ -2,17 +2,45 @@
   <mdb-accordion-item [collapsed]="false">
     <mdb-accordion-item-head>Collapsible Group Item #1</mdb-accordion-item-head>
     <mdb-accordion-item-body>
-      <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
-      non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-      aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-      beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
-      craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable
-      VHS.</p>
-      <!--For a regular waves-->
-      <a mdbBtn color="primary" size="lg" mdbWavesEffect>Regular waves</a>
+      <div class="container">
+        <div class="row">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+          non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+          aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+          beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+          craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable
+          VHS.
+        </div>
+      </div>
 
-      <!--For a lighter version of waves-->
-      <a mdbBtn color="primary" size="lg" class="waves-light" mdbWavesEffect>Light waves</a>
+      <div class="row">
+        <div class="col-md-12">
+          <h4>Buttons</h4>
+          <button mdbBtn color="primary" size="lg" mdbWavesEffect>Regular waves</button>
+          <button mdbBtn color="primary" size="lg" class="waves-light" mdbWavesEffect>Light waves</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h4>Disabled buttons</h4>
+          <button disabled mdbBtn color="primary" size="lg" mdbWavesEffect>Regular waves</button>
+          <button disabled mdbBtn color="primary" size="lg" class="waves-light" mdbWavesEffect>Light waves</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h4>Links</h4>
+          <a mdbBtn color="primary" size="lg" mdbWavesEffect>Regular waves</a>
+          <a mdbBtn color="primary" size="lg" class="waves-light" mdbWavesEffect>Light waves</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h4>Disabled links</h4>
+          <a disabled mdbBtn color="primary" size="lg" class="disabled" mdbWavesEffect>Regular waves</a>
+          <a disabled mdbBtn color="primary" size="lg" class="disabled waves-light" mdbWavesEffect>Light waves</a>
+        </div>
+      </div>
     </mdb-accordion-item-body>
   </mdb-accordion-item>
 </mdb-accordion>

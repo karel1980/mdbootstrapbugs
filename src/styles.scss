@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+/* Workaround for missing button text
+see https://mdbootstrap.com/support/angular/disappearing-button-text-using-waves-effect-inside-an-accordion/
+ */
+.accordion {
+  .waves-effect, .waves-light {
+    z-index: unset;
+  }
+}
+
